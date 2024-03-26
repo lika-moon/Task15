@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title> ЗАДАЧА 15 </title>
+</head>
+
+<body>
+    <p> ЗАДАЧА 15 </p>
+    <h3>Интерактивный каталог информационных сайтов</h3>
+    <div>
+        <input type="text" id="searchInput" placeholder="Поиск по сайтам...">
+        <button onclick="searchSites()">Поиск</button>
+    </div>
+    <div id="categories">
+    </div>
+    <div id="sites">
+    </div>
+    <h3>Для добавления сайта введите данные:</h3>
+    <form id="addSiteForm">
+        <input type="text" id="nameOfSite" placeholder="Название сайта...">
+        <input type="text" id="linkOfSite" placeholder="Cсылка на сайт...">
+        <textarea type="text" id="descriptionOfSite" placeholder="Краткое описание сайта..."></textarea>
+        <select id="category" name="category">
+            <option value="Наука">Наука</option>
+            <option value="Образование">Образование</option>
+            <option value="Технологии">Технологии</option>
+            <option value="Спорт">Спорт</option>
+            <option value="Здоровье">Здоровье</option>
+
+        </select>
+        <button type="submit" id="addSiteButton">Добавить сайт</button>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

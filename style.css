@@ -1,7 +1,7 @@
 body {
     margin-left: 25px;
     background-image: url(./img/fon.jpg);
-};
+}
 
 button {
     background-color: rgb(194, 232, 244);
@@ -18,24 +18,23 @@ margin-right: 8px;
 
 #descriptionOfSite {
     margin-top: 15px;
-};
+}
 
 form {
     display: flex;
-};
+}
 
 form input,
 form textarea,
 form select {
     flex: 1;
     margin-right: 10px;
-};
+}
 
 form button {
     flex: 0;
     
-};
-
+}
 form textarea {
     padding-top: 10px;
-};
+}
